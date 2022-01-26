@@ -40,7 +40,7 @@ export default function About() {
               aria-expanded="true"
               aria-controls="collapseOne"
             >
-              Accordion Item #1
+              Thanks for Visiting
             </button>
           </h2>
           <div
