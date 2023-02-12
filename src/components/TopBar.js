@@ -2,10 +2,10 @@ import { Box, IconButton, useTheme } from "@mui/material";
 import { useContext } from "react";
 import { ColorModeContext, tokens } from "../theme";
 import InputBase from "@mui/material/InputBase";
+import SearchIcon from "@mui/icons-material/Search";
 import LightModeOutlinedIcon from "@mui/icons-material/LightModeOutlined";
 import DarkModeOutlinedIcon from "@mui/icons-material/DarkModeOutlined";
 import GitHubIcon from "@mui/icons-material/GitHub";
-import SearchIcon from "@mui/icons-material/Search";
 import Logo from "../assets/logo.png"
 
 const Topbar = () => {
@@ -33,7 +33,12 @@ const Topbar = () => {
             Text <br /> Champ <sup>2.0</sup>
           </h2>
         </div>
+        <div className="nav-links">
+            <a>Home</a>
+            <a>About</a>
+        </div>
       </Box>
+
 
       {/* ICONS */}
       <Box>

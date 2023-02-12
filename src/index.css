@@ -6,6 +6,21 @@
   font-family: "Source Sans Pro", "sans-serif";
 }
 
+.nav-links a{
+  margin: 0px 10px;
+  cursor: pointer;
+  font-size: 17px;
+  font-weight: 600;
+  font-style: oblique;
+}
+
+.nav-links{
+  display: flex;
+  margin: 0px 50px;
+}
+
+
+
 /* Logo Properties */
 
 .logo {
