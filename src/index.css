@@ -1,0 +1,198 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap");
+
+
+* {
+  font-family: "Source Sans Pro", "sans-serif";
+}
+
+.alert-class{
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 300px;
+  z-index: 9999;
+
+}
+
+.nav-links a{
+  margin: 0px 10px;
+  cursor: pointer;
+  font-size: 17px;
+  font-weight: 600;
+  font-style: oblique;
+}
+
+.nav-links{
+  display: flex;
+  margin: 0px 50px;
+}
+
+.btns{
+  display: flex;
+  justify-content: space-between;
+  width: 70vw;
+}
+
+.btns button{
+  padding: 10px 25px;
+  margin: 5px 15px;
+  border: none;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.area-size{
+  width: 80vw;
+}
+
+.home{
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+.text-summary{
+  margin: 20px 0px;
+  width: 80vw;
+  text-align: left;
+}
+
+@media screen and (max-width: 1200px) {
+  .btns{
+    display: flex;
+    justify-content: space-between;
+    width: 80vw;
+  }
+  
+
+}
+
+@media screen and (max-width: 1100px) {
+
+  .btns button{
+    padding: 10px 15px;
+    margin: 5px 5px;
+    border: none;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: 600;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .btns{
+    display: flex;
+    justify-content: space-between;
+    width: 95vw;
+  }
+
+  .text-summary{
+    margin: 20px 0px;
+    width: 95vw;
+    text-align: left;
+  }
+  .area-size{
+    width: 95vw;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .btns button{
+    padding: 8px 5px;
+    margin: 5px 5px;
+    border: none;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: 600;
+  }
+
+}
+
+@media screen and (max-width: 600px) {
+  .btns button{
+    padding: 8px 5px;
+    margin: 5px 2px;
+    border: none;
+    border-radius: 8px;
+    font-size: 12px;
+    font-weight: 600;
+  }
+
+}
+
+@media screen and (max-width: 500px) {
+
+  .btns button{
+    padding: 10px 5px;
+    margin: 5px 2px;
+    border: none;
+    border-radius: 8px;
+    font-size: 12px;
+    font-weight: 600;
+  }
+  .btns span{
+    display: none;
+  }
+  .nav-links{
+    display: flex;
+    margin: 0px 10px;
+  }
+  .nav-links a{
+    margin: 0px 5px;
+    cursor: pointer;
+    font-size: 17px;
+    font-weight: 600;
+    font-style: oblique;
+  }
+
+}
+
+.btn-1{
+  color: white;
+  background-color: #3DD28D;
+}
+.btn-2{
+  color: white;
+  background-color: #416DEA;
+}
+.btn-3{
+  color: white;
+  background-color: #F32C52;
+}
+.btn-4{
+  color: #F35C5C;
+  background-color: #FEEE7D;
+}
+.btn-5{
+  color: white;
+  background-color: #7999A9;
+}
+
+
+
+/* Logo Properties */
+
+.logo {
+  display: flex;
+}
+
+.logo img {
+  height: 50px;
+}
+
+.logo div {
+  display: flex;
+  align-items: center;
+}
+
+.logo h2 {
+  font-size: 20px;
+  margin: 0px 5px;
+  font-family: "Fugaz One", cursive;
+}
+
+.logo h1 {
+  font-size: 20px;
+}
