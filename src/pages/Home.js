@@ -8,7 +8,6 @@ import SpaceBarIcon from "@mui/icons-material/SpaceBar";
 import CopyAllIcon from "@mui/icons-material/CopyAll";
 import DeleteIcon from "@mui/icons-material/Delete";
 
-
 function Home(props) {
   const theme = useTheme();
   const colors = tokens(theme.palette.mode);

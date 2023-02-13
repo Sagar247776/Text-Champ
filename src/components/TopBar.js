@@ -4,7 +4,7 @@ import { ColorModeContext } from "../theme";
 import LightModeOutlinedIcon from "@mui/icons-material/LightModeOutlined";
 import DarkModeOutlinedIcon from "@mui/icons-material/DarkModeOutlined";
 import GitHubIcon from "@mui/icons-material/GitHub";
-import Logo from "../assets/logo.png"
+import Logo from "../assets/logo.png";
 
 const Topbar = () => {
   const theme = useTheme();
@@ -13,38 +13,30 @@ const Topbar = () => {
   return (
     <Box display="flex" justifyContent="space-between" p={2}>
       <Box className="logo">
-        <img src={Logo} alt="logo"/>
+        <img src={Logo} alt="logo" />
         <div>
           <h2>
             Text <br /> Champ <sup>2.0</sup>
           </h2>
         </div>
-        <div className="nav-links">
-            <a>Home</a>
-            <a>About</a>
-        </div>
       </Box>
-
 
       {/* ICONS */}
       <Box>
-      <Box display="flex">
-        <IconButton onClick={colorMode.toggleColorMode}>
-          {theme.palette.mode === "dark" ? (
-            <DarkModeOutlinedIcon />
-          ) : (
-            <LightModeOutlinedIcon />
-          )}
-        </IconButton>
-        <a href="https://github.com/sn247776/Text-Champ" target="_blank">
-        <IconButton>
-          
-          <GitHubIcon />
-          
-          
-        </IconButton>
-        </a>
-      </Box>
+        <Box display="flex">
+          <IconButton onClick={colorMode.toggleColorMode}>
+            {theme.palette.mode === "dark" ? (
+              <DarkModeOutlinedIcon />
+            ) : (
+              <LightModeOutlinedIcon />
+            )}
+          </IconButton>
+          <a href="https://github.com/sn247776/Text-Champ" target="_blank">
+            <IconButton>
+              <GitHubIcon />
+            </IconButton>
+          </a>
+        </Box>
       </Box>
     </Box>
   );
